@@ -1,0 +1,86 @@
+@font-face 
+{
+    font-family: "SingleDay";
+    
+    src: url("/SingleDay-Regular.ttf") format("truetype");
+}
+
+html
+{
+    background: rgb(41, 41, 41);
+    color: white;
+    font-family: SingleDay;
+    
+}
+h1
+{
+    color: white;
+    display: inline-block;
+    border: 1px solid red;
+    margin: 1px 1px 1px 1px;
+    font-size: 30px;
+}
+
+strong
+{
+    font-weight: bolder;
+    font-size: 10px;
+    font-style: italic;
+}
+em
+{
+    font: 400 10px normal;
+}
+
+#Red
+{
+    color: red;
+}
+ul
+{
+    color: rgb(69, 69, 252);
+}
+ol
+{
+    color: red;
+}
+
+.Lists
+{
+    font-family: cursive;
+}
+
+a
+{
+    color: aqua;
+}
+
+a:hover
+{
+    color: azure;
+}
+
+a:visited
+{
+    color: aquamarine;
+}
+
+.TheDiv p
+{
+    color: orange;
+}
+
+.TheDiv > p
+{
+    color: orangered; 
+}
+
+.TheDiv ~ *
+{
+    background: blue;
+}
+
+.TheDiv + *
+{
+    background: red;
+}
