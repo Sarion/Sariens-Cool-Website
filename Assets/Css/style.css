@@ -33,7 +33,7 @@ h1 {
   font-size: 0.9em;
 }
 
-@media (min-width: 60rem) {
+@media screen and (min-width: 60rem) {
   .title {
     font-size: 3.7rem;
   }
@@ -56,7 +56,7 @@ h1 {
   color: white;
 }
 
-@media (min-width: 60rem) {
+@media screen and (min-width: 60rem) {
   .button {
     font-size: 1.5rem;
   }
@@ -92,7 +92,7 @@ nav a:hover, nav a:focus {
   color: red;
 }
 
-@media (min-width: 60rem) {
+@media screen and (min-width: 60rem) {
   .logo {
     float: left;
   }
@@ -108,7 +108,7 @@ nav a:hover, nav a:focus {
   background-position: center;
 }
 
-@media (min-width: 60rem) {
+@media screen and (min-width: 60rem) {
   .home-hero {
     height: 100vh;
     padding-top: 35vh;
@@ -133,14 +133,14 @@ nav a:hover, nav a:focus {
   transform: translate(-50%);
 }
 
-@media (min-width: 480px) {
+@media screen and (min-width: 480px) {
   .home-about-textbox h1 {
     font-size: 2.5rem;
     top: 0.35em;
     padding: 0 0.35em;
   }
 }
-@media (min-width: 60rem) {
+@media screen and (min-width: 60rem) {
   .home-about {
     background-image: url(sarion.github.io/Assets/img/who-we-are.jpg);
   }
