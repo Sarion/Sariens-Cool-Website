@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 900;
+  margin-top: 1em;
+}
+.title span {
+  font-weight: 200;
+  display: block;
+  font-size: 0.9em;
+}
+
+@media (min-width: 60rem) {
+  .title {
+    font-size: 3.7rem;
+  }
+}
+.button {
+  display: inline-block;
+  font-size: 1.35rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: 0.5em 1.75em;
+}
+
+.button-green {
+  color: #00ff80;
+}
+.button-green:hover, .button-green:focus {
+  background: #00ff80;
+  color: white;
+}
+
+@media (min-width: 60rem) {
+  .button {
+    font-size: 1.5rem;
+  }
+}
+header {
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin: 1em;
+}
+header img {
+  max-height: 4em;
+}
+
+nav ul {
+  margin: 1;
+  padding: 0em;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 1em;
+}
+nav a {
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding: 0.5em;
+  color: white;
+}
+nav a:hover, nav a:focus {
+  color: red;
+}
+
+@media (min-width: 60rem) {
+  .logo {
+    float: left;
+  }
+
+  nav {
+    float: right;
+  }
+}
+.home-hero {
+  background-image: url(/WebRoot/Assets/img/hero-bg.jpg);
+  padding: 10em 0;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 60rem) {
+  .home-hero {
+    height: 100vh;
+    padding-top: 35vh;
+  }
+}
+.home-about-textbox {
+  background-color: #232323;
+  padding: 3em;
+  width: 100vw;
+  outline: 2px solid #00ff80;
+  outline-offset: -2.5em;
+  color: white;
+  position: relative;
+}
+.home-about-textbox h1 {
+  color: #00ff80;
+  position: absolute;
+  top: 0.75em;
+  background: #232323;
+  padding: 0 0.145em;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@media (min-width: 25rem) {
+  .home-about-textbox h1 {
+    font-size: 2.5rem;
+    top: 0.35em;
+    padding: 0 0.35em;
+  }
+}
+@media (min-width: 60rem) {
+  .home-about {
+    background-image: url(/WebRoot/Assets/img/who-we-are.jpg);
+  }
+
+  .home-about-textbox {
+    width: 100vw;
+    margin-left: -1.5%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
