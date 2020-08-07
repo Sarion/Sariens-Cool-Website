@@ -160,7 +160,7 @@ nav a:hover, nav a:focus {
   }
 }
 .home-hero {
-  background-image: url(../img/hero-bg.jpg);
+  background-image: url(https://sarion.github.io/Assets/img/hero-bg.jpg);
   padding: 10em 0;
   background-size: cover;
   background-position: center;
@@ -207,7 +207,7 @@ nav a:hover, nav a:focus {
 }
 @media screen and (min-width: 60rem) {
   .home-about {
-    background-image: url(../img/who-we-are.jpg);
+    background-image: url(https://sarion.github.io/Assets/img/who-we-are.jpg);
     background-repeat: no-repeat;
     padding-bottom: 10em;
   }
